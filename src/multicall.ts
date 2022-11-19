@@ -7,7 +7,7 @@ interface Multicall {
 function getMulticall(chainId: number): Multicall | null {
   const addressMap: Record<number, Multicall | null> = {
     1: {
-      address: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
+      address: '0x5cbc9f488845449d1cff39aa7825710ac5069600',
       block: 7929876,
     },
     3: {
@@ -133,7 +133,7 @@ function getMulticall(chainId: number): Multicall | null {
 function getMulticall2(chainId: number): Multicall | null {
   const addressMap: Record<number, Multicall | null> = {
     1: {
-      address: '0x5ba1e12693dc8f9c48aad8770482f4739beed696',
+      address: '0x5cbc9f488845449d1cff39aa7825710ac5069600',
       block: 12336033,
     },
     4: {
@@ -209,7 +209,7 @@ function getMulticall2(chainId: number): Multicall | null {
 }
 
 function getMulticall3(chainId: number): Multicall | null {
-  const address = '0xca11bde05977b3631167028862be2a173976ca11';
+  const address = '0x5cbc9f488845449d1cff39aa7825710ac5069600';
   const addressMap: Record<number, Multicall | null> = {
     1: {
       address,
